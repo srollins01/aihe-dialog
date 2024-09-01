@@ -7,27 +7,27 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-import { Building2 } from 'lucide-react';
+import { Users } from 'lucide-react';
 
-export default function DialogBox() {
+export default function DialogArrowBr() {
   return (
     <>
       <Dialog>
         <DialogTrigger>
-            Dialog Box - Standard
+            Dialog Box - Arrow Bottom Right
         </DialogTrigger>
-        <DialogContent>
+        <DialogContent className="bottom-arrow right">
           <DialogHeader>
             <DialogTitle className="flex flex-row flex-wrap justify-between">
               <div className="flex flex-row">
-                <Building2 color="#6366f1" className="m-2"/>
-                <p className="self-center">Review Overview</p>
+                <Users color="#6366f1" className="m-2"/>
+                <p className="self-center">Review Individual Answers</p>
               </div>
-              <p className="bg-gray-300 self-center text-white rounded-sm px-2 py-1 text-sm">1 / 5</p>
+              <p className="bg-gray-300 self-center text-white rounded-sm px-2 py-1 text-sm">2 / 5</p>
             </DialogTitle>
             <DialogDescription className="text-pretty">
-              Start by reviewing the overall summary of the student&apos;s performance.
-              You&apos;ll see a preliminary score and general feedback provided by our AI.
+              Check each of the student&apos;s answers.
+              Our AI provides detailed feedback for each response.
             </DialogDescription>
           </DialogHeader>
           <div className="flex justify-end">

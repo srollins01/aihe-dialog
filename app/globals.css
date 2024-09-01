@@ -28,6 +28,7 @@
   }
 }
 
+
 .bottom-arrow {
   border-bottom: 5px solid #ffffff;
 }
@@ -36,12 +37,36 @@
   content:'';
   position: absolute;
   top: 100%;
-  left: 0;
-  right: 50%;
   margin: 0 auto;
   width: 0;
   height: 0;
   border-top: 25px solid #ffffff;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
+}
+
+.top-arrow {
+  border-top: 5px solid #ffffff;
+}
+
+.top-arrow:after {
+  content:'';
+  position: absolute;
+  bottom: 100%;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid #ffffff;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.right:after {
+  left: 80%;
+  right: 0;
+}
+
+.left:after {
+  left: 0;
+  right: 80%;
 }

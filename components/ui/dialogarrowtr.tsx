@@ -7,27 +7,27 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
-import { Building2 } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
-export default function DialogBox() {
+export default function DialogArrowTr() {
   return (
     <>
       <Dialog>
         <DialogTrigger>
-            Dialog Box - Standard
+            Dialog Box - Arrow Top Right
         </DialogTrigger>
-        <DialogContent>
+        <DialogContent className="top-arrow right">
           <DialogHeader>
             <DialogTitle className="flex flex-row flex-wrap justify-between">
               <div className="flex flex-row">
-                <Building2 color="#6366f1" className="m-2"/>
-                <p className="self-center">Review Overview</p>
+                <Mail color="#6366f1" className="m-2"/>
+                <p className="self-center">Send Results to Students</p>
               </div>
-              <p className="bg-gray-300 self-center text-white rounded-sm px-2 py-1 text-sm">1 / 5</p>
+              <p className="bg-gray-300 self-center text-white rounded-sm px-2 py-1 text-sm">5 / 5</p>
             </DialogTitle>
             <DialogDescription className="text-pretty">
-              Start by reviewing the overall summary of the student&apos;s performance.
-              You&apos;ll see a preliminary score and general feedback provided by our AI.
+              Finally, share the results with the student.
+              Include the feedback and scores you&apos;ve reviewed and approved.
             </DialogDescription>
           </DialogHeader>
           <div className="flex justify-end">
