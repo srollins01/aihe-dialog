@@ -2,6 +2,8 @@
 ![1657628769270](https://github.com/user-attachments/assets/e96faeb2-023d-43d9-82bc-950fe6c287db) <br>
 About Aihe: https://www.aihe.me/
 <br>
+https://github.com/AiheApp/
+<br>
 <br>
 Aihe dialog pop-up components. <br>
 Built with Next.js + Shadcn.
